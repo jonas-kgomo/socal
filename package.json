@@ -11,5 +11,11 @@
     "next": "9.3.6",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.4"
   }
 }
