@@ -3,39 +3,43 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className="container">
+    <div class="antialiased">
       <Head>
         <title>SoCal</title>
         <link rel="icon" href="/favicon.ico" />
+        
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
 
       <main>
-        <h1 class="text-center m-10 text-4xl font-semibold">
-          Welcome to  <h href="https://nextjs.org" class="text-blue-600 underline font-extrabold"> SoCal</h>
+        <h1 class="text-start m-10 text-4xl font-semibold">
+          <h href="https://nextjs.org" class="text-blue-600 underline font-extrabold"> SoCal</h>
+          <p class="font-thin">
+          Get started by editing linking your socials
+          </p>
         </h1>
 
-        <p className="description">
-          Get started by editing linking your socials
-        </p>
 
-        <div class="md:flex">
-  <div class="md:flex-shrink-0">
-    <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase"/>
-  </div>
-  <div class="mt-4 md:mt-0 md:ml-6">
-    <div class="uppercase tracking-wide text-sm text-indigo-600 font-bold">Marketing</div>
-    <a href="#" class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline">Finding customers for your new business</a>
-    <p class="mt-2 text-gray-600">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
+  <div class="max-w-md mx-auto shadow-lg bg-socarl-300 rounded-lg overflow-hidden">
+  <div class="sm:flex sm:items-center px-6 py-5">
+  <img class="inline-block md:mx-auto sm:h-24 sm:w-24  md:flex rounded-full object-cover border-black border-4  border-solid" src="yellow.jpg" alt="Woman's Face"/>
+ <div class="mt-4 sm:mt-0 sm:ml-4 text-center sm:text-left">
+      <p class="text-xl leading-tight">Erin Lindford</p>
+      <p class="text-sm leading-tight text-gray-600">Customer Support Specialist</p>
+      <div class="mt-4">
+      Message </div>
+    </div>
   </div>
 </div>
 
 
-        <div className="p-4 text-4xl shadow rounded bg-white">
-          <h1 className="text-purple-500 leading-normal">Next.js</h1>
-          <p className="text-gray-500">with Tailwind CSS</p>
-        </div>
+<div class="bg-red-500 sm:bg-green-500 w-2 md:bg-blue-500 lg:bg-pink-500 xl:bg-teal-500">lkmlkmkm</div>
+
         
+
       </main>
+
+
 
       <footer>
         <a
@@ -43,8 +47,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by  
+          return <img src="/vercel.svg" alt="my image" />
         </a>
       </footer>
 
